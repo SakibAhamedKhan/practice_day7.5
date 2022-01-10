@@ -184,13 +184,21 @@ li {
 .animation-start {
 	position: relative;
 	left: 50%;
-	top: 55.5%;
+	top: 49%;
 	transform: translate(-50%, -50%);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
+.div1 {
+	position: absolute;
+	/* border: 1px solid #059862; */
+	/* margin-top:; */
+	width: 100%;
+	height: 90vh;
+
+}
 
 @keyframes sliding1 {
 	0% {
@@ -199,7 +207,7 @@ li {
 	}
 
 	25% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	50% {
@@ -207,7 +215,7 @@ li {
 	}
 
 	75% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	100% {
@@ -226,19 +234,12 @@ li {
 	animation-play-state: running;
 }
 
-.div1 {
-	position: absolute;
-	/* border: 1px solid #059862; */
-	/* margin-top:; */
-	width: 100%;
-	height: 93vh;
 
-}
 
 @keyframes sliding2 {
 	0% {
 		left: 100%;
-		top: 93vh;
+		top: 90vh;
 	}
 
 	25% {
@@ -246,7 +247,7 @@ li {
 	}
 
 	50% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	75% {
@@ -254,7 +255,7 @@ li {
 	}
 
 	100% {
-		top: 93vh;
+		top: 90vh;
 		left: 0;
 	}
 }
@@ -277,7 +278,7 @@ li {
 
 
 	50% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 
@@ -305,7 +306,7 @@ li {
 
 
 	50% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 
@@ -332,7 +333,7 @@ li {
 	}
 
 	20% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	40% {
@@ -340,7 +341,7 @@ li {
 	}
 
 	60% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	80% {
@@ -348,7 +349,7 @@ li {
 	}
 
 	100% {
-		top: 93vh;
+		top: 90vh;
 		left: 100%;
 	}
 }
@@ -370,7 +371,7 @@ li {
 	}
 
 	20% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	40% {
@@ -378,7 +379,7 @@ li {
 	}
 
 	60% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	80% {
@@ -386,7 +387,7 @@ li {
 	}
 
 	100% {
-		top: 93vh;
+		top: 90vh;
 		left: 0;
 	}
 }
@@ -408,7 +409,7 @@ li {
 	}
 
 	5% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	10% {
@@ -416,7 +417,7 @@ li {
 	}
 
 	15% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	20% {
@@ -424,7 +425,7 @@ li {
 	}
 
 	25% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	30% {
@@ -432,7 +433,7 @@ li {
 	}
 
 	35% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	40% {
@@ -440,7 +441,7 @@ li {
 	}
 
 	45% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	50% {
@@ -448,7 +449,7 @@ li {
 	}
 
 	55% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	60% {
@@ -456,7 +457,7 @@ li {
 	}
 
 	65% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	70% {
@@ -464,7 +465,7 @@ li {
 	}
 
 	75% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	80% {
@@ -472,7 +473,7 @@ li {
 	}
 
 	85% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	90% {
@@ -480,7 +481,7 @@ li {
 	}
 
 	95% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	100% {
@@ -506,7 +507,7 @@ li {
 	}
 
 	5% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	10% {
@@ -514,7 +515,7 @@ li {
 	}
 
 	15% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	20% {
@@ -522,7 +523,7 @@ li {
 	}
 
 	25% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	30% {
@@ -530,7 +531,7 @@ li {
 	}
 
 	35% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	40% {
@@ -538,7 +539,7 @@ li {
 	}
 
 	45% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	50% {
@@ -546,7 +547,7 @@ li {
 	}
 
 	55% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	60% {
@@ -554,7 +555,7 @@ li {
 	}
 
 	65% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	70% {
@@ -562,7 +563,7 @@ li {
 	}
 
 	75% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	80% {
@@ -570,7 +571,7 @@ li {
 	}
 
 	85% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	90% {
@@ -578,7 +579,7 @@ li {
 	}
 
 	95% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	100% {
@@ -604,7 +605,7 @@ li {
 	}
 
 	25% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	50% {
@@ -613,7 +614,7 @@ li {
 	}
 
 	75% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	100% {
@@ -640,7 +641,7 @@ li {
 	}
 
 	33% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	66% {
@@ -649,7 +650,7 @@ li {
 	}
 
 	100% {
-		top: 93vh;
+		top: 90vh;
 		left: 100%;
 	}
 }
@@ -672,7 +673,7 @@ li {
 	}
 
 	33% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	66% {
@@ -681,7 +682,7 @@ li {
 	}
 
 	100% {
-		top: 93vh;
+		top: 90vh;
 		left: 0;
 	}
 }
@@ -704,7 +705,7 @@ li {
 	}
 
 	50% {
-		top: 93vh;
+		top: 90vh;
 	}
 
 	100% {
@@ -727,4 +728,14 @@ li {
 /* video-container */
 .video-container {
 	background: #96D4D4;
+}
+
+.video-details {
+	position: relative;
+	left: 50%;
+	top: 56%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
