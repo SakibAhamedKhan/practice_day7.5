@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
@@ -178,6 +179,549 @@ li {
 /* animation-container */
 .animation-container {
 	background: #F3ECEA;
+}
+
+.animation-start {
+	position: relative;
+	left: 50%;
+	top: 55.5%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+@keyframes sliding1 {
+	0% {
+		left: 0;
+		top: 0;
+	}
+
+	25% {
+		top: 93vh;
+	}
+
+	50% {
+		top: 0;
+	}
+
+	75% {
+		top: 93vh;
+	}
+
+	100% {
+		top: 0;
+		left: 100%;
+	}
+}
+
+.ball1 {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fd0000;
+	position: relative;
+	animation: sliding1 2s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+.div1 {
+	position: absolute;
+	/* border: 1px solid #059862; */
+	/* margin-top:; */
+	width: 100%;
+	height: 93vh;
+
+}
+
+@keyframes sliding2 {
+	0% {
+		left: 100%;
+		top: 93vh;
+	}
+
+	25% {
+		top: 0;
+	}
+
+	50% {
+		top: 93vh;
+	}
+
+	75% {
+		top: 0;
+	}
+
+	100% {
+		top: 93vh;
+		left: 0;
+	}
+}
+
+.ball2 {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #05ffa3;
+	position: relative;
+	animation: sliding2 2s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes sliding3 {
+	0% {
+		left: 0;
+		top: 0;
+	}
+
+
+	50% {
+		top: 93vh;
+	}
+
+
+	100% {
+		top: 0;
+		left: 100%;
+	}
+}
+
+.ball3 {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #ff24e5;
+	position: relative;
+	animation: sliding3 3s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes sliding4 {
+	0% {
+		left: 100%;
+		top: 0;
+	}
+
+
+	50% {
+		top: 93vh;
+	}
+
+
+	100% {
+		top: 0;
+		left: 0;
+	}
+}
+
+.ball4 {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #24f4ff;
+	position: relative;
+	animation: sliding4 3s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes sliding5 {
+	0% {
+		left: 0;
+		top: 0;
+	}
+
+	20% {
+		top: 93vh;
+	}
+
+	40% {
+		top: 0;
+	}
+
+	60% {
+		top: 93vh;
+	}
+
+	80% {
+		top: 0;
+	}
+
+	100% {
+		top: 93vh;
+		left: 100%;
+	}
+}
+
+.ball5 {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #e5ff24;
+	position: relative;
+	animation: sliding5 6s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes sliding6 {
+	0% {
+		left: 100%;
+		top: 0;
+	}
+
+	20% {
+		top: 93vh;
+	}
+
+	40% {
+		top: 0;
+	}
+
+	60% {
+		top: 93vh;
+	}
+
+	80% {
+		top: 0;
+	}
+
+	100% {
+		top: 93vh;
+		left: 0;
+	}
+}
+
+.ball6 {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #b624ff;
+	position: relative;
+	animation: sliding6 6s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes sliding7 {
+	0% {
+		left: 0;
+		top: 0;
+	}
+
+	5% {
+		top: 93vh;
+	}
+
+	10% {
+		top: 0;
+	}
+
+	15% {
+		top: 93vh;
+	}
+
+	20% {
+		top: 0;
+	}
+
+	25% {
+		top: 93vh;
+	}
+
+	30% {
+		top: 0;
+	}
+
+	35% {
+		top: 93vh;
+	}
+
+	40% {
+		top: 0;
+	}
+
+	45% {
+		top: 93vh;
+	}
+
+	50% {
+		top: 0;
+	}
+
+	55% {
+		top: 93vh;
+	}
+
+	60% {
+		top: 0;
+	}
+
+	65% {
+		top: 93vh;
+	}
+
+	70% {
+		top: 0;
+	}
+
+	75% {
+		top: 93vh;
+	}
+
+	80% {
+		top: 0;
+	}
+
+	85% {
+		top: 93vh;
+	}
+
+	90% {
+		top: 0;
+	}
+
+	95% {
+		top: 93vh;
+	}
+
+	100% {
+		top: 0;
+		left: 100%;
+	}
+}
+
+.ball7 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #000000;
+	position: relative;
+	animation: sliding7 12s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes sliding8 {
+	0% {
+		left: 100%;
+		top: 0;
+	}
+
+	5% {
+		top: 93vh;
+	}
+
+	10% {
+		top: 0;
+	}
+
+	15% {
+		top: 93vh;
+	}
+
+	20% {
+		top: 0;
+	}
+
+	25% {
+		top: 93vh;
+	}
+
+	30% {
+		top: 0;
+	}
+
+	35% {
+		top: 93vh;
+	}
+
+	40% {
+		top: 0;
+	}
+
+	45% {
+		top: 93vh;
+	}
+
+	50% {
+		top: 0;
+	}
+
+	55% {
+		top: 93vh;
+	}
+
+	60% {
+		top: 0;
+	}
+
+	65% {
+		top: 93vh;
+	}
+
+	70% {
+		top: 0;
+	}
+
+	75% {
+		top: 93vh;
+	}
+
+	80% {
+		top: 0;
+	}
+
+	85% {
+		top: 93vh;
+	}
+
+	90% {
+		top: 0;
+	}
+
+	95% {
+		top: 93vh;
+	}
+
+	100% {
+		top: 0;
+		left: 0;
+	}
+}
+
+.ball8 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	position: relative;
+	animation: sliding8 12s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes slidingt1 {
+	0% {
+		left: 0;
+		top: 20vh;
+	}
+
+	25% {
+		top: 93vh;
+	}
+
+	50% {
+		top: 0;
+
+	}
+
+	75% {
+		top: 93vh;
+	}
+
+	100% {
+		top: 0;
+		left: 100%;
+	}
+}
+
+.text1>h1 {
+	display: inline;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: #fd0000;
+	position: relative;
+	animation: slidingt1 10s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes slidingt2 {
+	0% {
+		left: 0;
+		top: 0;
+	}
+
+	33% {
+		top: 93vh;
+	}
+
+	66% {
+		top: 0;
+
+	}
+
+	100% {
+		top: 93vh;
+		left: 100%;
+	}
+}
+
+.text2>h1 {
+	display: inline;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: #fdba00;
+	position: relative;
+	animation: slidingt2 15s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes slidingt3 {
+	0% {
+		left: 100%;
+		top: 0;
+	}
+
+	33% {
+		top: 93vh;
+	}
+
+	66% {
+		top: 0;
+
+	}
+
+	100% {
+		top: 93vh;
+		left: 0;
+	}
+}
+
+.text3>h1 {
+	display: inline;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: #007afd;
+	position: relative;
+	animation: slidingt3 15s linear 0.5s infinite alternate;
+	animation-play-state: running;
+}
+
+@keyframes slidingt4 {
+	0% {
+		left: 100%;
+		top: 20vh;
+	}
+
+	50% {
+		top: 93vh;
+	}
+
+	100% {
+		top: 0;
+		left: 0;
+	}
+}
+
+.text4>h1 {
+	display: inline;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: #fd004c;
+	position: relative;
+	animation: slidingt4 10s linear 0.5s infinite alternate;
+	animation-play-state: running;
 }
 
 /* video-container */
