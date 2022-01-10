@@ -16,11 +16,14 @@ section {
 header {
 	position: fixed;
 	width: 100%;
+	z-index: 1000;
 }
 
 .navbar {
 	background-color: #ffffff;
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .tab,
@@ -38,10 +41,7 @@ li a {
 	height: 80px;
 }
 
-.tab li {
-	/* padding-left: 30px;
-	padding-right: 30px; */
-}
+
 
 .tab>li>a {
 	/* 059862color: rgb(0, 0, 0); */
