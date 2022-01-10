@@ -99,6 +99,43 @@ li a {
 	background: #D9EEE1;
 }
 
+.table-details {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.table-details table {
+	border-collapse: collapse;
+}
+
+.table-details caption {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.table-details th,
+td {
+	border: 1px solid white;
+	padding: 8px 40px;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.table-details th {
+	background-color: #282A35;
+	color: white;
+}
+
+.table-details td {
+	font-weight: 500;
+}
+
+.table-row td {
+	background-color: #8bf1b7;
+}
+
 /* semantic-container */
 .semantic-container {
 	background: #282A35;
